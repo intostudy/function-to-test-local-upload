@@ -123,8 +123,10 @@
 			"*.githubassets.com": {
 				"185.199.108.154": false,
 				"185.199.109.154": false
-			},
-			"internal-api.virginia.labs.lumalabs.ai": null
+			}
+		},
+		"whiteList": {
+			"*.laowang9z9k.com": true
 		}
 	}
 }
