@@ -1,0 +1,20 @@
+# --- 证书与隐私 (绝对不能上传) ---
+*.pem
+*.crt
+*.key
+dev-sidecar.ca.key.pem
+dev-sidecar.ca.crt
+
+# --- 运行日志与缓存 ---
+logs/
+*.log
+npm-debug.log*
+.cache/
+node_modules/
+
+# --- 系统垃圾 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+running.json

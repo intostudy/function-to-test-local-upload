@@ -1,0 +1,130 @@
+{
+	"app": {
+		"remoteConfig": {
+			"personalUrl": "https://raw.githubusercontent.com/intostudy/config-local/refs/heads/main/remote_config_privcy.json"
+		}
+	},
+	"plugin": {
+		"git": {
+			"enabled": true
+		}
+	},
+	"server": {
+		"dns": {
+			"speedTest": {
+				"hostnameList": [
+					"githubassets.com",
+					"github.io",
+					"codeload.github.com",
+					"github.dev",
+					"github.com",
+					"claude.ai",
+					"hub.docker.com",
+					"api.github.com",
+					"docs.github.com",
+					"onedrive.live.com",
+					"fonts.googleapis.cn",
+					"cn-greasyfork.org",
+					"stitch.withgoogle.com",
+					"copilot.microsoft.com",
+					"discuss.huggingface.co",
+					"cdn-uploads.huggingface.co",
+					"cdn-avatars.huggingface.co",
+					"scholar.googleusercontent.com",
+					"external-content.duckduckgo.com",
+					"objects-origin.githubusercontent.com",
+					"internal-api.virginia.labs.lumalabs.ai",
+					"youtube.nocookie.com",
+					"gist.github.com",
+					"google.com.sg",
+					"myaccount.google.com",
+					"gemini.google.com",
+					"drive.google.com",
+					"youtube.com",
+					"aistudio.google.com",
+					"microsoftonline.com",
+					"www.github.com"
+				],
+				"dnsProviders": [
+					"cf-DoH",
+					"cf-DoT",
+					"local"
+				]
+			}
+		},
+		"setting": {
+			"script": {
+				"enabled": false
+			}
+		},
+		"preSetIpList": {
+			"gist.github.com": {
+				"140.82.116.3": false,
+				"140.82.116.4": false
+			},
+			"^.*(youtube.com|gstatic.com|youtube.nocookie.com|youtu.be|ggpht.com|i.ytimg.com|blogger.com|doodles.google|about.google|android.com|antigravity.google)$": {
+				"20.27.177.113": {
+					"desc": "新加坡低延迟官方(该字段指定并开启)"
+				},
+				"142.251.189.206": false,
+				"8.137.102.117": null
+			},
+			"^.*(youtube.com|gstatic.com|youtube.nocookie.com|youtu.be|ggpht.com|i.ytimg.com|blogger.com|doodles.google|about.google|android.com)$": {
+				"8.137.102.117": {
+					"desc": "新加坡低延迟官方(源为自动官方地区，更改地方)"
+				},
+				"142.251.189.206": {
+					"desc": false
+				}
+			},
+			"^.*(with)?google(apis|usercontent)?.com.*$": {
+				"8.137.102.117": {
+					"desc": "自动地区官方"
+				},
+				"47.102.115.14": false,
+				"142.251.189.206": null
+			},
+			"fonts.googleapis.cn": {
+				"114.250.67.34": false
+			},
+			"*.cn-greasyfork.org": {
+				"50.116.4.196": false
+			},
+			"api.github.com": {
+				"140.82.112.5": false,
+				"140.82.113.6": false,
+				"140.82.116.6": false,
+				"140.82.121.6": false,
+				"20.26.156.210": false,
+				"20.87.245.6": false,
+				"20.201.28.148": false,
+				"20.248.137.49": false
+			},
+			"github.dev": {
+				"51.137.3.17": false,
+				"52.224.38.193": false,
+				"20.27.177.113": true,
+				"20.205.243.166": true,
+				"20.43.185.14": null,
+				"20.99.227.183": null
+			},
+			"codeload.github.com": {
+				"20.27.177.113": true,
+				"20.26.156.216": false,
+				"20.200.245.246": false,
+				"20.201.28.149": false,
+				"20.248.137.55": false,
+				"140.82.113.9": false,
+				"140.82.114.10": false,
+				"140.82.116.10": false,
+				"140.82.121.9": false,
+				"20.87.245.7": null
+			},
+			"*.githubassets.com": {
+				"185.199.108.154": false,
+				"185.199.109.154": false
+			},
+			"internal-api.virginia.labs.lumalabs.ai": null
+		}
+	}
+}
